@@ -196,4 +196,4 @@ async def bot_info(bot, message):
             InlineKeyboardButton('Source Code', url='https://github.com/ImSaravanakrish')
         ]
         ]
-    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : https://t.me/useless07>Click here</a>\nUpdate Channel : <a href='https://t.me/TamilBots>Tamil Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/useless07'>Click here</a>\nUpdate Channel : <a href='https://t.me/TamilBots'>Tamil Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
