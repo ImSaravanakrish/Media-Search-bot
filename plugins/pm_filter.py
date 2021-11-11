@@ -288,11 +288,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='https://t.me/TamilBots),
-                    InlineKeyboardButton('Source Code', url='https://github.com/ImSaravanakrish)
+                    InlineKeyboardButton('Update Channel', url='https://t.me/TamilBots'),
+                    InlineKeyboardButton('Source Code', url='https://github.com/ImSaravanakrish')
                 ]
                 ]
-            await query.message.edit(text="<b>Developer : <a href='https://t.me/subinps_bot'>SUBIN</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/subin_works'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>Developer : <a href='https://t.me/TamilBotz'>TamilBots</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/ImSaravanakrish'>Click here</a>\nUpdate Channel : <a href='https://t.me/TamilBots'>Tamil Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -314,7 +314,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons = [
                     [
                         InlineKeyboardButton('More Bots', url='https://t.me/TamilBots/84'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/TamilBots)
+                        InlineKeyboardButton('Update Channel', url='https://t.me/TamilBots')
                     ]
                     ]
                 
@@ -346,7 +346,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons = [
                     [
                         InlineKeyboardButton('More Bots 🤩', url='https://t.me/TamilBots/84'),
-                        InlineKeyboardButton('Update Channel 🥳', url='https://t.me/TamilBots)
+                        InlineKeyboardButton('Update Channel 🥳', url='https://t.me/TamilBots')
                     ]
                     ]
                 
